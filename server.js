@@ -4,7 +4,7 @@ const cheerio=require('cheerio');
 const bodyp=require('body-parser');
 const app=express();
 const methodO=require('method-override');
-const PORT=3000||process.env.PORT;
+const PORT=process.env.PORT||3000;
 const base="https://www.shutterstock.com/";
 app.use(bodyp.urlencoded({extended:true}))
  
