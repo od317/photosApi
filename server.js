@@ -8,7 +8,7 @@ const PORT=process.env.PORT||3000;
 const base="https://www.shutterstock.com/";
 app.use(bodyp.urlencoded({extended:true}))
  
-let results=[]
+
 
 app.get('/',(req,res)=>{
   res.send('wow');
@@ -16,6 +16,8 @@ app.get('/',(req,res)=>{
 
 
 app.get('/search/:id',async(req,res)=>{
+    let results=[]
+  
     let pages;
     let done=true;
     let errmessage;
