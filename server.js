@@ -13,10 +13,6 @@ app.use(cors({origin: '*'}));
 
 
 
-app.get('/',(req,res)=>{
-  res.send('wow');
-})
-
 
 app.get('/search/:id',async(req,res)=>{
     let results=[]
