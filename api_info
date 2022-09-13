@@ -1,0 +1,84 @@
+image_types:
+photos,
+vectors,
+illustration,
+
+
+orientaion:
+horizontal,
+verical
+
+
+color:
+hex code
+
+
+people:
+mreleased=
+true to get people
+flase to not 
+
+
+age:
+infants, children, teenagers
+20s , 30s,40s,50s,60s,Older
+
+Gender:
+male,female,both
+
+people_number :
+1,2,3,4+
+
+ethnicity:
+african,african american,black,barazilan
+chinese,caucasian,east asian,
+hispanic,
+japanese,middle eastern,native american,
+pacific islander,
+south asian ,southeast asian,
+other
+
+measurement:
+in means inches dpi
+in_300
+in_150
+in_50
+
+
+min_width:
+number
+
+min_height:
+number
+
+
+category:
+nothing for all
+The%20Arts
+Animals%2FWildlife
+Backgrounds%2FTextures
+Beauty%2FFashion
+Buildings%2FLandmarks
+Business%2FFinance
+Celebrities
+Editorial
+Education
+Food%20and%20Drink
+Healthcare%2FMedical
+Holidays
+Illustrations%2FClip-Art
+Industrial
+Interiors
+Miscellaneous
+Nature
+Objects
+Parks%2FOutdoor
+People
+Religion
+Science
+Signs%2FSymbols
+Sports%2FRecreation
+Technology
+Transportation
+Vectors
+Vintage
