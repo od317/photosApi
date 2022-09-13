@@ -5,9 +5,12 @@ const bodyp=require('body-parser');
 const app=express();
 const methodO=require('method-override');
 const PORT=process.env.PORT||3000;
+var cors = require('cors');
 const base="https://www.shutterstock.com/";
 app.use(bodyp.urlencoded({extended:true}))
- 
+
+app.use(cors({origin: '*'}));
+
 
 
 app.get('/',(req,res)=>{
