@@ -47,15 +47,16 @@ app.get('/search/:id',async(req,res)=>{
     .then(response=>{
         const html=response.data;
         const $ = cheerio.load(html);
-        
-        $(`.jss215`,html).each(function(){  
-          const url=$(this).find('a').attr('href');
-          const image=$(this).find('img').attr('src');
+        let i=0;
+        $(`img`,html).each(function(){  
+          const image=$(this).attr('src');
+          if(i>=4)
           results.push({
-            url:base+url,
             image:image
           })
+          i++;
         })
+     
 
         $(`.MuiBox-root`).each(function(){
           pages=$(this).find("span").text();
