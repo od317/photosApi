@@ -9,7 +9,13 @@ var cors = require('cors');
 const base="https://www.shutterstock.com/";
 app.use(bodyp.urlencoded({extended:true}))
 
-app.use(cors({origin: '*'}));
+app.use(cors(
+  {
+  
+    origin: '*'
+
+  }
+  ));
 
 
 
