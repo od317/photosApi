@@ -1,4 +1,18 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+@import 'login.css';
 html{
     font-family:"Nunito";
+}
+
+.nav-bar{
+    width: 100vw;
+    height: 2rem;
+    margin-bottom: 5%;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: auto;
 }

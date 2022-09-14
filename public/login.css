@@ -1,0 +1,13 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 88vh;
+}
+.login-card{
+   background-color: wheat;
+   height: 50%;
+
+}

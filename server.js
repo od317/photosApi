@@ -8,6 +8,7 @@ const PORT=process.env.PORT||3000;
 const cors = require('cors');
 const base="https://www.shutterstock.com/";
 const mysql=require('mysql');
+const expresslay=require("express-ejs-layouts");
 const { generateApiKey } = require('generate-api-key');
 
 
@@ -18,7 +19,8 @@ const con=mysql.createConnection({
     password:"123",
     database:"photoApi"
 })
-
+app.set('layout','./layout');
+app.use(expresslay);
 app.use(bodyp.urlencoded({extended:true}))
 app.set('view engine','ejs');
 app.use(express.static('public'));
