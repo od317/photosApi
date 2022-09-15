@@ -1,12 +1,155 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<div class="docs-body">
+    <h2>Search</h2>
+    <br>
+    <p><span class="path">Path: </span>https://shutterstock-photos-api.herokuapp.com/search/ <br>
+    to search a specifc topic or somthing you want photo of <br>
+    use: <br> 
+    https://shutterstock-photos-api.herokuapp.com/search/somthing?
+    <br>
+    <br>
+    if you want cars use : <br>
+    https://shutterstock-photos-api.herokuapp.com/search/cars?
+    <br>
+    and so on  
+    </p>
+    you can add filters: <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill"><span class="path">image_type</span></div>
+        <div class="p-2 flex-fill">photos,vectors,illustration,</div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?image_type=photo  </div>
+    </div>
+    <br>
+    <div class="d-flex">
+        <br>
+        <div class="p-2 flex-fill"><span class="path">orientaion:</span></div>
+        <div class="p-2 flex-fill">horizontal,verical</div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?orientation=horizontal  </div>
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill"> <span class="path">color:</span>
+        </div>
+        <div class="p-2 flex-fill">what color do you want in your photos (hex value)</div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?color=#fffff</div>
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill"> <span class="path">people:</span>
+        </div>
+        <div class="p-2 flex-fill">set mreleased  to true if you want people in your photos else false</div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?mreleased=true</div>
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill"> <span class="path">age:</span>
+        </div>
+        <div class="p-2 flex-fill">age of people in your photos (infants, children, teenagers
+            20s,30s,40s,50s,60s,Older)
+        </div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?mreleased=true&age=30s</div>
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill"> <span class="path">gender:
+        </span>
+        </div>
+        <div class="p-2 flex-fill">male,female,both
+        </div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?mreleased=true&gender=female</div>
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill"> <span class="path">people_number:
+
+        </span>
+        </div>
+        <div class="p-2 flex-fill">1,2,3,4+
+        </div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?mreleased=true&people_number=3</div>
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill"> <span class="path">min_width:
+        </span>
+        </div>
+        <div class="p-2 flex-fill">pixles
+        </div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?min_width=300px</div>
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill"> <span class="path">min_height:
+        </span>
+        </div>
+        <div class="p-2 flex-fill">pixles
+        </div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?min_height=300px</div>
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill"> <span class="path">category:
+        </span>
+        </div>
+        <div class="p-2 flex-fill">nothing for all <br>
+            The%20Arts,
+            Animals%20FWildlife,
+            Backgrounds%2FTextures,
+            Beauty%20FFashion,
+            Buildings%20FLandmarks,
+            Business%20FFinance ,
+            Celebrities,
+            Editorial,
+            Education,
+            Food%20and%20Drink,
+            Healthcare%20FMedical,
+            Holidays,
+            Illustrations%20FClip-Art,
+            Industrial,
+            Interiors,
+            Miscellaneous ,
+            Nature,
+            Objects,
+            Parks%20FOutdoor,
+            People,
+            Religion, 
+            Science,
+            Signs%20FSymbols,
+            Sports%20FRecreation,
+            Technology,
+            Transportation,
+            Vectors,
+            Vintage,
+        </div>  
+    </div>
+    <br>
+    <div class="d-flex">
+        <div class="p-2 flex-fill">https://shutterstock-photos-api.herokuapp.com/search/cars?category=THE%20Arts</div>
+    </div>
+</div>

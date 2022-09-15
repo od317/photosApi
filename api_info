@@ -21,12 +21,12 @@ flase to not
 
 age:
 infants, children, teenagers
-20s , 30s,40s,50s,60s,Older
+20s,30s,40s,50s,60s,Older
 
 Gender:
 male,female,both
 
-people_number :
+people_number:
 1,2,3,4+
 
 ethnicity:

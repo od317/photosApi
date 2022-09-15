@@ -1,9 +1,16 @@
 
-    <form action="/signin" method="post">
-     <input required type="text" value="<%= locals.name %>"  name="name" placeholder="name">
-     <input required type="text" name="pass" placeholder="password">
-     <input required  type="text" name="passcon" placeholder="confirm password">
-     <button type="submit">submit</button>   
+
+ <div class="login">
+    <div class="login-card">
+        
+     <form action="/signin" class="d-flex flex-column" method="post">
+     <h2>sign in</h2>
+     <input required class="login-card-in" type="text" value="<%= locals.name %>"  name="name" placeholder="name">
+     <input required class="login-card-in" type="text" name="pass" placeholder="password">
+     <input required class="login-card-in"  type="text" name="passcon" placeholder="confirm password">
+     <button class="login-card-in" type="submit">submit</button>   
+     <p class="err"><%= locals.err %></p>
     </form>
-    <h3><%= locals.err %> </h3>
- 
+    </div>
+    </div>
+

@@ -1,0 +1,11 @@
+.docs-body{
+    width: 100vw;
+    background: rgb(0,77,111);
+background: linear-gradient(90deg, rgba(0,77,111,0.8267682072829132) 0%, rgba(0,0,0,0.6643032212885154) 0%, rgba(0,0,0,0.7483368347338936) 0%);
+   padding: 2rem;
+   color:white;
+}
+
+.path{
+    color:var(--color-u);
+}

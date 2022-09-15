@@ -1,13 +1,47 @@
+:root{
+    --color-u:rgb(0, 47, 255);
+}
+
 .login{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
     width: 100vw;
-    height: 88vh;
+    height:70vh;
 }
-.login-card{
-   background-color: wheat;
-   height: 50%;
+.login-card-in{
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    width: 50vw;
+    min-width: 275px;
+    max-width: 400px;   
+}
 
+.login-card{
+   height: 50%;
+   width: 80%;
+   max-width: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
+.login-card button{
+    background-color: var(--color-u);
+    border-radius: 10px;
+    color: white;
+    padding: .3rem;
+}
+.login-card input{
+    border-bottom: 3px solid var(--color-u);
+    background-color: rgb(255, 255, 255);
+    padding: .2rem;
+}
+
+.login-card h2{
+    color: white;
+}
+.login-card .err{
+    color: rgb(255, 0, 0);
+    
+} 
